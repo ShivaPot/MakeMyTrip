@@ -1,6 +1,3 @@
-# HeadSpin Hackathon
-
-### Team Name : MindBenders
 
 ### Technology Stack :
 
@@ -40,10 +37,3 @@ Once the execution is completed reports can be found inside **target/surefire-re
 2. Sometimes clicks for some element is not changing any UI as Application is in the idle state.
 3. After applying filter, sometimes the filter tray is not shown at the top.
 
---------------
-#### Team Members :
-
-ashrith.yalala@celigo.com <br>
-rajaneeshkumar.balabadra@celigo.com <br>
-shiva.potlapelli@celigo.com <br>
-vinaykumar.badugu@celigo.com <br>
