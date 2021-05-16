@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 4, Time elapsed: 5.923 sec <<< FAILURE! - in TestSuite
+setUp(org.mindbenders.makemytrip.MakeMyTrip)  Time elapsed: 0.45 sec  <<< FAILURE!
+java.lang.IllegalStateException: The driver is not executable: /Users/Shiva.P/Desktop/MindBenders_HeadSpin_Hackathon/drivers/chromedriver
+	at org.mindbenders.makemytrip.MakeMyTrip.setUp(MakeMyTrip.java:23)
+
+tearDown(org.mindbenders.makemytrip.MakeMyTrip)  Time elapsed: 5.028 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "org.mindbenders.makemytrip.base.TestBase.driver" is null
+	at org.mindbenders.makemytrip.MakeMyTrip.tearDown(MakeMyTrip.java:57)
+
